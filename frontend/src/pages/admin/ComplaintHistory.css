@@ -1,0 +1,13 @@
+.admin-complaint-history-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-complaint-history-header {
+  margin-bottom: 32px;
+}
+
+.resolved-date {
+  color: #059669;
+  font-weight: 500;
+}

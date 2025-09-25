@@ -39,7 +39,7 @@ export function AppSidebar() {
   const menuItems = getUserMenuItems();
 
   return (
-    <div className="sidebar">
+    <div className="app-sidebar">
       <div className="sidebar-header">
         <div className="sidebar-logo">
           <span>PC</span>

@@ -28,11 +28,13 @@ const Login = () => {
 
       if (response.ok) {
         const userData = {
-          id: data.user_id || '1',
-          role: data.role || 'user',
-          department: data.department,
-        };
-
+        id: data.user?.id,
+        name: data.user?.name,
+        email: data.user?.email,
+        phone: data.user?.phone,
+        role: data.user?.role,
+        department: data.user?.department,
+      };
         login(data.access_token, userData);
         
         toast.success('Welcome to PublicCare!');

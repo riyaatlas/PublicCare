@@ -6,10 +6,10 @@ with app.app_context():
     existing = User.query.filter_by(email="superadmin@example.com").first()
     if not existing:
         superadmin = User(
-            name="Riya Atlas",
-            email="riyaatlas@gmail.com",
+            name="Roshni Pradhan",
+            email="roshnipradhan@gmail.com",
             phone="7590887678",
-            password=bcrypt.generate_password_hash("Riya*2002").decode("utf-8"),
+            password=bcrypt.generate_password_hash("Roshni*2001").decode("utf-8"),
             role="superadmin",
             department="all"
         )
